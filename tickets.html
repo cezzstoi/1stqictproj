@@ -1,0 +1,79 @@
+<html>
+<head>
+  <title>Tickets</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<style>
+body {
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #690601;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #9e0800;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #d4d2d2;
+  padding: 20px;
+}
+</style>
+<body bgcolor="#c2bca5">
+
+<h3>Tickets</h3>
+<p>Please fill in the form.</p>
+
+<div class="container">
+  <form action="ty.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="font-family: Montserrat;" style="font-size: 18px;">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="font-family: Montserrat;" style="font-size: 18px;">
+
+    <label for="country">Movie</label>
+    <select id="country" name="country">
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Always</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Avatar: The Way of Water</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Smile</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">Thor: Love and Thunder</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">A Savannah Haunting</option>
+    </select>
+
+    <label for="country">Time</label>
+    <select id="country" name="country">
+      <option style="font-family: Montserrat;" style="font-size: 18px;">11:00 AM</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">1:00 PM</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">4:00 PM</option>
+      <option style="font-family: Montserrat;" style="font-size: 18px;">7:00 PM</option>
+    </select>
+  
+    <a href="ty.html">
+      <input type="submit"/>
+    </a>
+  </form>
+</div>
+
+</body>
+</html>
